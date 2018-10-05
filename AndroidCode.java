@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this)
         .setSmallIcon(R.drawable.ic_launcher_background)
         .setContentTitle("Smart Basket")
-        .setContentText("Order Soon, the stock is gonna to run out!");
+        .setContentText("Order Soon, the stock is gonna run out!");
 
         NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         manager.notify(0, mBuilder.build());
